@@ -16,7 +16,7 @@ services:
   flask-app:
     build:
       context: flask
-      dockerfile: ./Dockerfile_standalone_build
+      dockerfile: ./Dockerfile
     restart: always
     environment:
       - FLASK_SERVER_PORT=8000
